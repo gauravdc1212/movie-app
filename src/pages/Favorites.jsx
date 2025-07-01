@@ -1,4 +1,4 @@
-import MovieList from '../components/MovieList';
+import MovieList from '../Components/MovieList';
 import { useMovieContext } from '../context/MovieContext';
 
 const Favorites = () => {

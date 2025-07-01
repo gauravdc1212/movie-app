@@ -1,8 +1,8 @@
 import { useEffect } from 'react';
 import axios from 'axios';
 import { useMovieContext } from '../context/MovieContext';
-import SearchBar from '../components/SearchBar';
-import MovieList from '../components/MovieList';
+import SearchBar from '../Components/SearchBar';
+import MovieList from '../Components/MovieList';
 
 const Home = () => {
   const { query, movies, setMovies, page, loadMore } = useMovieContext();
